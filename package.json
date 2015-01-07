@@ -1,0 +1,33 @@
+{
+  "name": "pjftv",
+  "version": "1.0.0",
+  "description": "Scrape links from Project Free TV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "projectfreetv",
+    "tv",
+    "movies",
+    "links"
+  ],
+  "author": "Mister Hat <misterhat144@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.18.0",
+    "needle": "^0.7.10"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misterhat/pjftv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/misterhat/pjftv/issues"
+  },
+  "homepage": "https://github.com/misterhat/pjftv"
+}
